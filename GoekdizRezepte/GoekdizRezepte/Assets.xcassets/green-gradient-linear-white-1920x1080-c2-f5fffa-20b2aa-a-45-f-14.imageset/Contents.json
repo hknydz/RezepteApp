@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "green-gradient-linear-white-1920x1080-c2-f5fffa-20b2aa-a-45-f-14.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
