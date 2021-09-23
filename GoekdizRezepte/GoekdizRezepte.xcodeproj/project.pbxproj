@@ -81,7 +81,6 @@
 		B05ABDAE26FB23D900825621 = {
 			isa = PBXGroup;
 			children = (
-				B05ABDEE26FB3AC100825621 /* 2ndViewViewController.swift */,
 				B05ABDB926FB23D900825621 /* GoekdizRezepte */,
 				B05ABDD026FB23DA00825621 /* GoekdizRezepteTests */,
 				B05ABDDB26FB23DA00825621 /* GoekdizRezepteUITests */,
@@ -102,6 +101,7 @@
 		B05ABDB926FB23D900825621 /* GoekdizRezepte */ = {
 			isa = PBXGroup;
 			children = (
+				B05ABDEE26FB3AC100825621 /* 2ndViewViewController.swift */,
 				B05ABDBA26FB23D900825621 /* AppDelegate.swift */,
 				B05ABDBE26FB23D900825621 /* ViewController.swift */,
 				B05ABDBC26FB23D900825621 /* SceneDelegate.swift */,

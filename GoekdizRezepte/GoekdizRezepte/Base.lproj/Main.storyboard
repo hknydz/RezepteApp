@@ -9,180 +9,274 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Nd View View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Mittag-->
+        <scene sceneID="og3-uS-6J9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="_ndViewViewController" customModule="GoekdizRezepte" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Terra-di-Siena-gebr_0" translatesAutoresizingMaskIntoConstraints="NO" id="nx9-oB-iy3">
-                                <rect key="frame" x="-1075" y="-286" width="2139" height="1531"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="UEJ-RG-Fhn">
-                                <rect key="frame" x="-291" y="-190" width="645" height="1342"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Nd2-rc-dHj"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="-2807" y="-540"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="wxt-mc-JoD">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XOK-co-ffY" sceneMemberID="firstResponder"/>
-                <viewController id="UP0-2N-W2e" customClass="ViewController" customModule="GoekdizRezepte" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tZK-cW-fOJ">
+                <viewController id="Yry-hh-7nt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LLa-uG-eDZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Terra-di-Siena-gebr_0" translatesAutoresizingMaskIntoConstraints="NO" id="n2A-od-uTV">
-                                <rect key="frame" x="-1075" y="-286" width="2139" height="1531"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="3Ue-6m-H3v">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="csw-bg-ujP">
-                                <rect key="frame" x="-291" y="-190" width="645" height="1342"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (6)" translatesAutoresizingMaskIntoConstraints="NO" id="Ggx-Jy-gLY">
+                                <rect key="frame" x="20" y="463" width="194" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fui-pB-6tK">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Frühstück" image="sunrise.fill" catalog="system" id="w34-Dt-Syh">
-                                        <imageReference key="selectedImage" image="sunrise" catalog="system" symbolScale="default"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="Mittag" image="sun.min.fill" catalog="system" id="XKD-Nj-jMI">
-                                        <imageReference key="selectedImage" image="sunrise" catalog="system" symbolScale="default"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="Abend" image="sunset.fill" catalog="system" selectedImage="sunset.fill" id="BhL-eh-oD5"/>
-                                </items>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tabBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="92" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sqW-2I-ZzQ" userLabel="Table View Frühstück">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (7)" translatesAutoresizingMaskIntoConstraints="NO" id="EJs-6W-eaa">
+                                <rect key="frame" x="20" y="640" width="194" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="190" id="6BD-2X-6ge">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="190"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6BD-2X-6ge" id="FlB-s1-c9I">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="jJf-e1-oKl">
-                                                    <rect key="frame" x="20" y="34" width="194" height="121"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="French Toast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwy-8B-uS8">
-                                                    <rect key="frame" x="257" y="84" width="99" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="190" id="OSS-F5-zOV">
-                                        <rect key="frame" x="0.0" y="214.5" width="414" height="190"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OSS-F5-zOV" id="sRe-QS-Gha">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (2)" translatesAutoresizingMaskIntoConstraints="NO" id="XqC-w4-lfc">
-                                                    <rect key="frame" x="20" y="34" width="194" height="121"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sucuk mit Ei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqC-id-VTO">
-                                                    <rect key="frame" x="259" y="84" width="94" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="190" id="te7-36-mWv">
-                                        <rect key="frame" x="0.0" y="404.5" width="414" height="190"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="te7-36-mWv" id="6Er-wr-XpT">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (3)" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-14-zVe">
-                                                    <rect key="frame" x="20" y="34" width="194" height="121"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Omlett" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqV-ha-x1i">
-                                                    <rect key="frame" x="282" y="84" width="52" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="190" id="3Jt-r2-vdV">
-                                        <rect key="frame" x="0.0" y="594.5" width="414" height="190"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Jt-r2-vdV" id="WuO-YX-jyb">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (4)" translatesAutoresizingMaskIntoConstraints="NO" id="UGI-ay-1Jb">
-                                                    <rect key="frame" x="20" y="11" width="194" height="121"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rührei mit Lachs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJP-rQ-kjD">
-                                                    <rect key="frame" x="246" y="61" width="127" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (5)" translatesAutoresizingMaskIntoConstraints="NO" id="KwM-0r-PnJ">
+                                <rect key="frame" x="20" y="292" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (12)" translatesAutoresizingMaskIntoConstraints="NO" id="GHi-74-nFd">
+                                <rect key="frame" x="20" y="113" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nudelpfanne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-rT-LRZ">
+                                <rect key="frame" x="265" y="150" width="99" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gefüllte Paprikaschoten mit Reis" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iZ-0A-Mh7">
+                                <rect key="frame" x="234" y="281" width="156" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birnen, Bohnen &amp; Speck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vx6-fL-grw">
+                                <rect key="frame" x="222" y="513" width="184" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegane Champignon-Pfanne" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLc-dx-Owr">
+                                <rect key="frame" x="222" y="650" width="180" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mittag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9u-DD-L90">
+                                <rect key="frame" x="176" y="44" width="62" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="bnO-t3-oKN"/>
+                        <viewLayoutGuide key="safeArea" id="d3X-J8-2ts"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Mittag" image="sun.min.fill" catalog="system" selectedImage="sun.max.fill" id="4oi-8G-oPm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8g-wj-RBx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="323" y="-133"/>
+        </scene>
+        <!--Frühstück-->
+        <scene sceneID="qn1-gR-Me9">
+            <objects>
+                <viewController id="kF6-AU-yQY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gRm-Id-cNa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="YHq-m9-QlT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (3)" translatesAutoresizingMaskIntoConstraints="NO" id="G02-iT-eQN">
+                                <rect key="frame" x="20" y="464" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (4)" translatesAutoresizingMaskIntoConstraints="NO" id="GaG-mF-oDt">
+                                <rect key="frame" x="20" y="641" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (2)" translatesAutoresizingMaskIntoConstraints="NO" id="ur2-j9-loS">
+                                <rect key="frame" x="20" y="293" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-d9-FOF">
+                                <rect key="frame" x="7" y="114" width="217" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="French Toast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNa-Nx-uBu">
+                                <rect key="frame" x="244" y="151" width="99" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sucuk mit Ei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9A-hc-1JW">
+                                <rect key="frame" x="246" y="343" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Omlett" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiU-d2-XIQ">
+                                <rect key="frame" x="267" y="505" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rührei mit Lachs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuJ-1D-ZCc">
+                                <rect key="frame" x="230" y="684" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frühstück" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKT-Hj-ZTV">
+                                <rect key="frame" x="159" y="44" width="96" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZq-iC-Wvh">
+                                <rect key="frame" x="237" y="206" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="Qgo-Ur-zVh" kind="presentation" modalPresentationStyle="fullScreen" id="htL-M6-UI8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fos-8e-bLz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Frühstück" image="sunrise.fill" catalog="system" id="GsL-gw-KEG">
+                        <imageReference key="selectedImage" image="sunrise" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKI-3t-1dt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.7971014492753632" y="1194.6428571428571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tuy-cp-QhW">
+            <objects>
+                <viewController id="Qgo-Ur-zVh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Va-7P-GRj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="PTC-bu-cQN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="French Toast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qp1-g0-gfX">
+                                <rect key="frame" x="145" y="44" width="124" height="26.5"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUO-ps-Xv1">
+                                <rect key="frame" x="20" y="27.5" width="49" height="30"/>
+                                <state key="normal" title="Zurück"/>
+                                <connections>
+                                    <segue destination="kF6-AU-yQY" kind="presentation" modalPresentationStyle="fullScreen" id="mbw-Nb-pen"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrosoftTeams-image (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="yyl-HZ-rcV">
+                                <rect key="frame" x="0.0" y="111.5" width="414" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="S1G-x9-Yqk"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNZ-Jr-QNU">
+                                <rect key="frame" x="0.0" y="401" width="414" height="495"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oWe-bJ-j9d">
+                                        <rect key="frame" x="8" y="0.0" width="398" height="1191"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ6-N1-Cdw">
+                                                <rect key="frame" x="0.0" y="25" width="398" height="1116"/>
+                                                <mutableString key="text">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.   
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsumAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.   
+ dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.   
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="hJ6-N1-Cdw" secondAttribute="bottom" constant="50" id="280-BI-TMc"/>
+                                            <constraint firstItem="hJ6-N1-Cdw" firstAttribute="top" secondItem="oWe-bJ-j9d" secondAttribute="top" constant="25" id="9Mx-fO-ovd"/>
+                                            <constraint firstItem="hJ6-N1-Cdw" firstAttribute="leading" secondItem="oWe-bJ-j9d" secondAttribute="leading" id="WIX-sB-AYi"/>
+                                            <constraint firstAttribute="trailing" secondItem="hJ6-N1-Cdw" secondAttribute="trailing" id="YvJ-qE-Qqf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="oWe-bJ-j9d" secondAttribute="bottom" id="4fh-W7-o6b"/>
+                                    <constraint firstItem="oWe-bJ-j9d" firstAttribute="top" secondItem="bNZ-Jr-QNU" secondAttribute="top" id="ipl-7w-H1j"/>
+                                    <constraint firstItem="oWe-bJ-j9d" firstAttribute="leading" secondItem="bNZ-Jr-QNU" secondAttribute="leading" constant="8" id="oZT-iK-fU8"/>
+                                    <constraint firstItem="oWe-bJ-j9d" firstAttribute="width" secondItem="bNZ-Jr-QNU" secondAttribute="width" multiplier="0.961353" id="ox0-er-D3t"/>
+                                    <constraint firstAttribute="trailing" secondItem="oWe-bJ-j9d" secondAttribute="trailing" constant="8" id="uXt-yC-B5h"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7r9-WN-pr9"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="VSq-xA-8M4"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oYt-Kc-Rd6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PTC-bu-cQN" secondAttribute="bottom" id="476-bW-MGb"/>
+                            <constraint firstItem="yyl-HZ-rcV" firstAttribute="top" secondItem="dUO-ps-Xv1" secondAttribute="bottom" constant="54" id="BnI-kY-dzm"/>
+                            <constraint firstItem="PTC-bu-cQN" firstAttribute="trailing" secondItem="yyl-HZ-rcV" secondAttribute="trailing" id="Kdq-v0-s7H"/>
+                            <constraint firstItem="PTC-bu-cQN" firstAttribute="top" secondItem="2Va-7P-GRj" secondAttribute="top" id="TGp-vH-8Td"/>
+                            <constraint firstItem="yyl-HZ-rcV" firstAttribute="top" secondItem="qp1-g0-gfX" secondAttribute="bottom" constant="41" id="TTS-IA-ogJ"/>
+                            <constraint firstItem="bNZ-Jr-QNU" firstAttribute="trailing" secondItem="oYt-Kc-Rd6" secondAttribute="trailing" id="Uh7-PM-vdh"/>
+                            <constraint firstItem="qp1-g0-gfX" firstAttribute="top" secondItem="oYt-Kc-Rd6" secondAttribute="top" id="UsK-jL-03K"/>
+                            <constraint firstAttribute="bottom" secondItem="bNZ-Jr-QNU" secondAttribute="bottom" id="W5U-uU-JVg"/>
+                            <constraint firstItem="qp1-g0-gfX" firstAttribute="centerX" secondItem="yyl-HZ-rcV" secondAttribute="centerX" id="b3s-gC-cPb"/>
+                            <constraint firstItem="PTC-bu-cQN" firstAttribute="leading" secondItem="yyl-HZ-rcV" secondAttribute="leading" id="f05-0g-xsa"/>
+                            <constraint firstAttribute="trailing" secondItem="PTC-bu-cQN" secondAttribute="trailing" id="fwx-7d-EEr"/>
+                            <constraint firstItem="dUO-ps-Xv1" firstAttribute="leading" secondItem="2Va-7P-GRj" secondAttribute="leadingMargin" id="kwP-nC-87m"/>
+                            <constraint firstItem="bNZ-Jr-QNU" firstAttribute="leading" secondItem="oYt-Kc-Rd6" secondAttribute="leading" id="qJd-vI-Vdc"/>
+                            <constraint firstItem="PTC-bu-cQN" firstAttribute="leading" secondItem="2Va-7P-GRj" secondAttribute="leading" id="qyA-Bb-i25"/>
+                            <constraint firstItem="bNZ-Jr-QNU" firstAttribute="top" secondItem="yyl-HZ-rcV" secondAttribute="bottom" constant="8.5" id="rv9-Hw-bEo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ald-gr-A04" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834.78260869565224" y="1194.6428571428571"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="u9c-y8-CGe">
+            <objects>
+                <tabBarController id="i79-M5-x6T" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J9l-Yf-5Nx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
                     <connections>
-                        <outlet property="tabbar" destination="csw-bg-ujP" id="toy-o2-diF"/>
+                        <segue destination="kF6-AU-yQY" kind="relationship" relationship="viewControllers" id="lgZ-fW-YXn"/>
+                        <segue destination="Yry-hh-7nt" kind="relationship" relationship="viewControllers" id="iIo-EY-h2h"/>
+                        <segue destination="ET9-YJ-iGj" kind="relationship" relationship="viewControllers" id="0mr-mD-clz"/>
                     </connections>
-                </viewController>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RY1-Bz-qfs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-742" y="-244"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="MP8-1W-liC">
-            <objects>
-                <viewController id="1QI-3h-9Ph" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hfo-RW-YNZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Gyh-tb-R6f"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bor-Kk-qj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="230" y="-265"/>
+            <point key="canvasLocation" x="-1406" y="633"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vSJ-2C-i46">
@@ -192,12 +286,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Terra-di-Siena-gebr_0" translatesAutoresizingMaskIntoConstraints="NO" id="etD-BB-UAd">
-                                <rect key="frame" x="-1075" y="-286" width="2139" height="1531"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="5Vh-Fw-SYF">
-                                <rect key="frame" x="-291" y="-190" width="645" height="1342"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="5Vh-Fw-SYF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngwing.com-3" translatesAutoresizingMaskIntoConstraints="NO" id="sJq-t2-2mh">
@@ -209,7 +299,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="pngwing.com"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SegTwo" id="OR4-J7-qmz"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="yBB-7A-afW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keine Ahnung was du Essen sollst?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-25-Cqd">
@@ -245,33 +335,112 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="Bg1" destination="etD-BB-UAd" id="eCn-pC-JgS"/>
                         <outlet property="HeyLabel" destination="jhA-h5-FQ4" id="HTb-er-EuW"/>
                         <outlet property="InspiLabel" destination="szc-Xu-Wfz" id="AR1-8r-3zr"/>
                         <outlet property="KALabel" destination="RyB-25-Cqd" id="1I5-uf-VCR"/>
                         <outlet property="KlickLabel" destination="WgC-3N-53P" id="x2u-nW-bK3"/>
                         <outlet property="bg2" destination="5Vh-Fw-SYF" id="nVO-5G-YTN"/>
                         <outlet property="gemuese" destination="sJq-t2-2mh" id="GQ0-dx-Ohb"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="SegOne" id="Aee-dL-3Nl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvI-CX-rtS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1551" y="-88"/>
+            <point key="canvasLocation" x="-1852.1739130434785" y="-133.25892857142856"/>
+        </scene>
+        <!--Abendessen-->
+        <scene sceneID="1nB-Ds-6b8">
+            <objects>
+                <viewController id="ET9-YJ-iGj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qKZ-uh-pVS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="NSv-oQ-zQF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (10)" translatesAutoresizingMaskIntoConstraints="NO" id="sQI-XW-DgS">
+                                <rect key="frame" x="20" y="465" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (11)" translatesAutoresizingMaskIntoConstraints="NO" id="IJy-6E-sFa">
+                                <rect key="frame" x="20" y="642" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (9)" translatesAutoresizingMaskIntoConstraints="NO" id="ROk-DI-19P">
+                                <rect key="frame" x="20" y="294" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hänchenbrust mit Glasnudedeln" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTN-KX-aTV">
+                                <rect key="frame" x="227" y="93" width="159" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rinderfiletsteak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlY-Sr-j7V">
+                                <rect key="frame" x="246" y="344" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thunfischsteaks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcy-Cm-BhM">
+                                <rect key="frame" x="246" y="515" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lasagne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOM-OH-lfH">
+                                <rect key="frame" x="274" y="685" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abendessen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqT-nb-HL7">
+                                <rect key="frame" x="147" y="44" width="120" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (8)" translatesAutoresizingMaskIntoConstraints="NO" id="Kad-vj-5gU">
+                                <rect key="frame" x="20" y="115" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zDI-0n-uip"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Abendessen" image="sunset.fill" catalog="system" id="yMR-Ep-H2z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Scg-ha-46y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984" y="400"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OR4-J7-qmz"/>
+        <segue reference="mbw-Nb-pen"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="MicrosoftTeams-image (1)-1" width="605" height="454"/>
+        <image name="MicrosoftTeams-image (10)" width="605" height="404"/>
+        <image name="MicrosoftTeams-image (11)" width="605" height="404"/>
+        <image name="MicrosoftTeams-image (12)" width="605" height="404"/>
         <image name="MicrosoftTeams-image (2)" width="605" height="404"/>
         <image name="MicrosoftTeams-image (3)" width="605" height="404"/>
         <image name="MicrosoftTeams-image (4)" width="605" height="404"/>
-        <image name="Terra-di-Siena-gebr_0" width="600" height="389"/>
+        <image name="MicrosoftTeams-image (5)" width="605" height="404"/>
+        <image name="MicrosoftTeams-image (6)" width="605" height="404"/>
+        <image name="MicrosoftTeams-image (7)" width="605" height="403"/>
+        <image name="MicrosoftTeams-image (8)" width="605" height="404"/>
+        <image name="MicrosoftTeams-image (9)" width="605" height="404"/>
         <image name="apricot" width="640" height="1136"/>
         <image name="pngwing.com" width="600" height="600"/>
         <image name="pngwing.com-3" width="863" height="556"/>
+        <image name="sun.max.fill" catalog="system" width="128" height="124"/>
         <image name="sun.min.fill" catalog="system" width="128" height="121"/>
         <image name="sunrise" catalog="system" width="128" height="97"/>
         <image name="sunrise.fill" catalog="system" width="128" height="97"/>
