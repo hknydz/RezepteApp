@@ -330,7 +330,7 @@ In eine Pfanne die Eier geben und mit der Milch vermischen. Die Toastscheiben to
                                 <rect key="frame" x="20" y="44" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="kF6-AU-yQY" kind="presentation" modalPresentationStyle="fullScreen" id="mbw-Nb-pen"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="2Pf-lO-AxO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -552,7 +552,7 @@ In eine Pfanne die Eier geben und mit der Milch vermischen. Die Toastscheiben to
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxL-nN-xrJ">
-                                <rect key="frame" x="20" y="819" width="184" height="30"/>
+                                <rect key="frame" x="20" y="770" width="184" height="30"/>
                                 <state key="normal" title="Mehr Rezepte auf Rewe.de"/>
                                 <connections>
                                     <segue destination="dmd-ec-mZE" kind="presentation" modalPresentationStyle="fullScreen" id="crL-rU-zRS"/>
@@ -661,7 +661,7 @@ Zum Schluss die Marinade sowie die Austernsauce einrühren und die Glasnudeln un
                                 <rect key="frame" x="20" y="44" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="ET9-YJ-iGj" kind="presentation" modalPresentationStyle="fullScreen" id="wfS-Nm-xGG"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="YIE-oQ-AW7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -763,7 +763,7 @@ Häufige beliebte Varianten von Sucuk mit Ei bestehen in der Beigabe von gebrate
                                 <rect key="frame" x="20" y="41" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="kF6-AU-yQY" kind="presentation" modalPresentationStyle="fullScreen" id="Gc7-Na-DgS"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="hWH-Xp-Pf5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -863,7 +863,7 @@ Das fertige Omelett auf einen Teller geben und mit fein gehackten Kräutern und/
                                 <rect key="frame" x="20" y="41" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="kF6-AU-yQY" kind="presentation" modalPresentationStyle="fullScreen" id="EiY-au-aI3"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="ek9-er-M9k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -965,7 +965,7 @@ Zum Schluss das Rührei mit den Lachsscheiben auf einem Teller oder einer Scheib
                                 <rect key="frame" x="20" y="44" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="kF6-AU-yQY" kind="presentation" modalPresentationStyle="fullScreen" id="c3C-PR-kP4"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="S7W-Me-DL4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1152,7 +1152,7 @@ Beilagen: Pfeffersauce, Brot, Salat, Zwiebelringe oder Pommes.
                                 <rect key="frame" x="20" y="41" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="ET9-YJ-iGj" kind="presentation" modalPresentationStyle="fullScreen" id="2hW-P8-BLh"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="GD9-kg-Eu4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1252,7 +1252,7 @@ Wichtig ist beim Thunfischsteak, dass der Fisch eine sehr gute Qualität hat, da
                                 <rect key="frame" x="20" y="44" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="ET9-YJ-iGj" kind="presentation" modalPresentationStyle="fullScreen" id="nAM-n9-VnC"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="hqm-3e-62f"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1370,10 +1370,10 @@ Ganz zum Schluss obendrauf kommt die Bechamel Sauce, nur noch frisch geriebenen 
                                 <viewLayoutGuide key="frameLayoutGuide" id="5Ov-QU-OLU"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXs-Qt-bup">
-                                <rect key="frame" x="0.0" y="44" width="49" height="30"/>
+                                <rect key="frame" x="20" y="40" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="ET9-YJ-iGj" kind="presentation" modalPresentationStyle="fullScreen" id="0wJ-MT-GCc"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="fX4-K3-EPF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1880,13 +1880,9 @@ Nun die Pilze, die Gurken und die Gewürze zu den Zwiebeln in die Pfanne geben u
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Qwg-Gs-LdZ"/>
-        <segue reference="Bzj-cj-sIY"/>
         <segue reference="Ug7-qK-fM0"/>
-        <segue reference="0wJ-MT-GCc"/>
         <segue reference="EuX-pS-FiZ"/>
-        <segue reference="wge-hX-5ct"/>
-        <segue reference="c3C-PR-kP4"/>
+        <segue reference="qlW-NS-7m5"/>
         <segue reference="xzS-3e-QVd"/>
     </inferredMetricsTieBreakers>
     <resources>
