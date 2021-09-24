@@ -16,6 +16,9 @@
 		B05ABDD226FB23DA00825621 /* GoekdizRezepteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05ABDD126FB23DA00825621 /* GoekdizRezepteTests.swift */; };
 		B05ABDDD26FB23DA00825621 /* GoekdizRezepteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05ABDDC26FB23DA00825621 /* GoekdizRezepteUITests.swift */; };
 		B05ABDEF26FB3AC100825621 /* 2ndViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05ABDEE26FB3AC100825621 /* 2ndViewViewController.swift */; };
+		B0A1F9D726FDCC2100AF2D81 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1F9D626FDCC2100AF2D81 /* WebViewController.swift */; };
+		B0A1F9D926FDCC4B00AF2D81 /* AbendWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1F9D826FDCC4B00AF2D81 /* AbendWebViewController.swift */; };
+		B0A1F9DB26FDCC5700AF2D81 /* FruehWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1F9DA26FDCC5700AF2D81 /* FruehWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B05ABDDC26FB23DA00825621 /* GoekdizRezepteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoekdizRezepteUITests.swift; sourceTree = "<group>"; };
 		B05ABDDE26FB23DA00825621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B05ABDEE26FB3AC100825621 /* 2ndViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndViewViewController.swift; sourceTree = "<group>"; };
+		B0A1F9D626FDCC2100AF2D81 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B0A1F9D826FDCC4B00AF2D81 /* AbendWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbendWebViewController.swift; sourceTree = "<group>"; };
+		B0A1F9DA26FDCC5700AF2D81 /* FruehWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruehWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		B05ABDB926FB23D900825621 /* GoekdizRezepte */ = {
 			isa = PBXGroup;
 			children = (
+				B0A1F9D626FDCC2100AF2D81 /* WebViewController.swift */,
 				B05ABDEE26FB3AC100825621 /* 2ndViewViewController.swift */,
 				B05ABDBA26FB23D900825621 /* AppDelegate.swift */,
 				B05ABDBE26FB23D900825621 /* ViewController.swift */,
@@ -109,6 +116,8 @@
 				B05ABDC326FB23DA00825621 /* Assets.xcassets */,
 				B05ABDC526FB23DA00825621 /* LaunchScreen.storyboard */,
 				B05ABDC826FB23DA00825621 /* Info.plist */,
+				B0A1F9D826FDCC4B00AF2D81 /* AbendWebViewController.swift */,
+				B0A1F9DA26FDCC5700AF2D81 /* FruehWebViewController.swift */,
 			);
 			path = GoekdizRezepte;
 			sourceTree = "<group>";
@@ -263,7 +272,10 @@
 			files = (
 				B05ABDEF26FB3AC100825621 /* 2ndViewViewController.swift in Sources */,
 				B05ABDBF26FB23D900825621 /* ViewController.swift in Sources */,
+				B0A1F9DB26FDCC5700AF2D81 /* FruehWebViewController.swift in Sources */,
 				B05ABDBB26FB23D900825621 /* AppDelegate.swift in Sources */,
+				B0A1F9D726FDCC2100AF2D81 /* WebViewController.swift in Sources */,
+				B0A1F9D926FDCC4B00AF2D81 /* AbendWebViewController.swift in Sources */,
 				B05ABDBD26FB23D900825621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

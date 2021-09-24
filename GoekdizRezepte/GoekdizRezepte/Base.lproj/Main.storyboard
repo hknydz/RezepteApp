@@ -17,161 +17,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="3Ue-6m-H3v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="3Ue-6m-H3v">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSw-B4-2Ia">
-                                <rect key="frame" x="256" y="189" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="d1R-e7-Tpp"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="mAr-aI-rWm" kind="presentation" modalPresentationStyle="fullScreen" id="9Q7-qx-khY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvO-nv-hGA">
-                                <rect key="frame" x="256" y="368" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="MW0-dU-ijV"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="jBg-Ag-QyI" kind="presentation" modalPresentationStyle="fullScreen" id="4uT-Gu-1Rl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz0-HT-NgN">
-                                <rect key="frame" x="256" y="539" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="AX9-Oj-6EP"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="JVQ-Gf-tvN" kind="presentation" modalPresentationStyle="fullScreen" id="Ug7-qK-fM0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec8-WX-qVJ">
-                                <rect key="frame" x="256" y="716" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="TF4-1O-sjo"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="Eak-qO-LRl" kind="presentation" modalPresentationStyle="fullScreen" id="XPO-Vk-jCb"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (6)" translatesAutoresizingMaskIntoConstraints="NO" id="Ggx-Jy-gLY">
-                                <rect key="frame" x="20" y="463" width="194" height="121"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (7)" translatesAutoresizingMaskIntoConstraints="NO" id="EJs-6W-eaa">
-                                <rect key="frame" x="20" y="640" width="194" height="121"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (5)" translatesAutoresizingMaskIntoConstraints="NO" id="KwM-0r-PnJ">
-                                <rect key="frame" x="20" y="292" width="194" height="121"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (12)" translatesAutoresizingMaskIntoConstraints="NO" id="GHi-74-nFd">
-                                <rect key="frame" x="20" y="113" width="194" height="121"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Nudelpfanne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-rT-LRZ">
-                                <rect key="frame" x="265" y="150" width="99" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="99" id="HqT-dt-xyL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gefüllte Paprikaschoten mit Reis" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iZ-0A-Mh7">
-                                <rect key="frame" x="234" y="281" width="156" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Lx3-z5-qxZ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Birnen, Bohnen &amp; Speck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vx6-fL-grw">
-                                <rect key="frame" x="222" y="513" width="184" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vegane Champignon-Pfanne" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLc-dx-Owr">
-                                <rect key="frame" x="222" y="650" width="180" height="81"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="81" id="Hp7-tO-pdK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mittag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9u-DD-L90">
-                                <rect key="frame" x="176" y="44" width="62" height="27"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28X-QY-aPK">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28X-QY-aPK">
                                 <rect key="frame" x="20" y="44" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="house" catalog="system"/>
                                 <connections>
                                     <segue destination="pVt-f3-T6B" kind="presentation" modalPresentationStyle="fullScreen" id="8Fc-HO-9zJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSw-B4-2Ia">
+                                <rect key="frame" x="256" y="189" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="mAr-aI-rWm" kind="presentation" modalPresentationStyle="fullScreen" id="9Q7-qx-khY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvO-nv-hGA">
+                                <rect key="frame" x="256" y="368" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="jBg-Ag-QyI" kind="presentation" modalPresentationStyle="fullScreen" id="4uT-Gu-1Rl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz0-HT-NgN">
+                                <rect key="frame" x="256" y="539" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="JVQ-Gf-tvN" kind="presentation" modalPresentationStyle="fullScreen" id="Ug7-qK-fM0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec8-WX-qVJ">
+                                <rect key="frame" x="256" y="716" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="Eak-qO-LRl" kind="presentation" modalPresentationStyle="fullScreen" id="XPO-Vk-jCb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (6)" translatesAutoresizingMaskIntoConstraints="NO" id="Ggx-Jy-gLY">
+                                <rect key="frame" x="20" y="463" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (7)" translatesAutoresizingMaskIntoConstraints="NO" id="EJs-6W-eaa">
+                                <rect key="frame" x="20" y="640" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (5)" translatesAutoresizingMaskIntoConstraints="NO" id="KwM-0r-PnJ">
+                                <rect key="frame" x="20" y="292" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (12)" translatesAutoresizingMaskIntoConstraints="NO" id="GHi-74-nFd">
+                                <rect key="frame" x="20" y="113" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nudelpfanne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-rT-LRZ">
+                                <rect key="frame" x="265" y="150" width="99" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gefüllte Paprikaschoten mit Reis" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iZ-0A-Mh7">
+                                <rect key="frame" x="234" y="281" width="156" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birnen, Bohnen &amp; Speck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vx6-fL-grw">
+                                <rect key="frame" x="222" y="513" width="184" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegane Champignon-Pfanne" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLc-dx-Owr">
+                                <rect key="frame" x="222" y="650" width="180" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mittag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9u-DD-L90">
+                                <rect key="frame" x="176" y="44" width="62" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI8-Ro-7Bm">
+                                <rect key="frame" x="25" y="769" width="184" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mehr Rezepte auf Rewe.de"/>
+                                <connections>
+                                    <segue destination="Kkh-5G-tjV" kind="presentation" modalPresentationStyle="fullScreen" id="lCn-e6-ZbU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d3X-J8-2ts"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="5iZ-0A-Mh7" firstAttribute="centerX" secondItem="nvO-nv-hGA" secondAttribute="centerX" id="1in-Aj-etH"/>
-                            <constraint firstItem="nvO-nv-hGA" firstAttribute="trailing" secondItem="uz0-HT-NgN" secondAttribute="trailing" id="1zd-hQ-kIZ"/>
-                            <constraint firstItem="EJs-6W-eaa" firstAttribute="bottom" secondItem="Ec8-WX-qVJ" secondAttribute="bottom" id="2JI-1Q-Ur3"/>
-                            <constraint firstItem="Ggx-Jy-gLY" firstAttribute="leading" secondItem="EJs-6W-eaa" secondAttribute="leading" id="3oh-4g-QeM"/>
-                            <constraint firstItem="KwM-0r-PnJ" firstAttribute="trailing" secondItem="Ggx-Jy-gLY" secondAttribute="trailing" id="4Ar-DR-H42"/>
-                            <constraint firstItem="28X-QY-aPK" firstAttribute="top" secondItem="z9u-DD-L90" secondAttribute="top" id="6h3-0n-Gh8"/>
-                            <constraint firstItem="3Ue-6m-H3v" firstAttribute="leading" secondItem="d3X-J8-2ts" secondAttribute="leading" id="7U8-kZ-THx"/>
-                            <constraint firstItem="Ggx-Jy-gLY" firstAttribute="centerY" secondItem="vx6-fL-grw" secondAttribute="centerY" id="8Ea-M0-u25"/>
-                            <constraint firstItem="nvO-nv-hGA" firstAttribute="leading" secondItem="uz0-HT-NgN" secondAttribute="leading" id="94Q-uc-wNZ"/>
-                            <constraint firstItem="28X-QY-aPK" firstAttribute="leading" secondItem="LLa-uG-eDZ" secondAttribute="leadingMargin" id="9as-g2-9FJ"/>
-                            <constraint firstItem="Ggx-Jy-gLY" firstAttribute="trailing" secondItem="EJs-6W-eaa" secondAttribute="trailing" id="B55-UK-6Up"/>
-                            <constraint firstItem="28X-QY-aPK" firstAttribute="top" secondItem="d3X-J8-2ts" secondAttribute="top" id="Ba7-LK-Wgp"/>
-                            <constraint firstItem="vx6-fL-grw" firstAttribute="leading" secondItem="Ggx-Jy-gLY" secondAttribute="trailing" constant="8" id="BgN-Xg-olB"/>
-                            <constraint firstItem="rSw-B4-2Ia" firstAttribute="top" secondItem="d3X-J8-2ts" secondAttribute="top" constant="145" id="DFR-Q4-at7"/>
-                            <constraint firstItem="d3X-J8-2ts" firstAttribute="bottom" secondItem="EJs-6W-eaa" secondAttribute="bottom" constant="101" id="Df7-ex-apK"/>
-                            <constraint firstItem="uz0-HT-NgN" firstAttribute="trailing" secondItem="Ec8-WX-qVJ" secondAttribute="trailing" id="Dnm-zu-VTP"/>
-                            <constraint firstItem="rSw-B4-2Ia" firstAttribute="leading" secondItem="GHi-74-nFd" secondAttribute="trailing" constant="42" id="E2a-qU-7FZ"/>
-                            <constraint firstItem="d3X-J8-2ts" firstAttribute="trailing" secondItem="DLc-dx-Owr" secondAttribute="trailing" constant="12" id="ExA-Zd-yto"/>
-                            <constraint firstItem="uz0-HT-NgN" firstAttribute="leading" secondItem="Ec8-WX-qVJ" secondAttribute="leading" id="F45-lk-Bh3"/>
-                            <constraint firstItem="uz0-HT-NgN" firstAttribute="top" secondItem="vx6-fL-grw" secondAttribute="bottom" constant="5" id="G2x-1K-mtq"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="top" secondItem="28X-QY-aPK" secondAttribute="bottom" constant="47" id="GoE-MB-dB5"/>
-                            <constraint firstItem="5iZ-0A-Mh7" firstAttribute="leading" secondItem="KwM-0r-PnJ" secondAttribute="trailing" constant="20" id="HyB-Qr-mFE"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="trailing" secondItem="KwM-0r-PnJ" secondAttribute="trailing" id="HzW-Up-4sp"/>
-                            <constraint firstItem="EJs-6W-eaa" firstAttribute="top" secondItem="Ggx-Jy-gLY" secondAttribute="bottom" constant="56" id="K1b-p7-2Kr"/>
-                            <constraint firstItem="Khj-rT-LRZ" firstAttribute="leading" secondItem="GHi-74-nFd" secondAttribute="trailing" constant="51" id="QzZ-P1-6HG"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="bottom" secondItem="rSw-B4-2Ia" secondAttribute="bottom" id="Riy-mS-3Ud"/>
-                            <constraint firstItem="5iZ-0A-Mh7" firstAttribute="top" secondItem="rSw-B4-2Ia" secondAttribute="bottom" constant="47" id="Vmz-hg-DFm"/>
-                            <constraint firstItem="Ggx-Jy-gLY" firstAttribute="bottom" secondItem="uz0-HT-NgN" secondAttribute="bottom" id="WMh-2V-qRc"/>
-                            <constraint firstItem="DLc-dx-Owr" firstAttribute="top" secondItem="uz0-HT-NgN" secondAttribute="bottom" constant="66" id="X3e-Rz-hWd"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="top" secondItem="z9u-DD-L90" secondAttribute="bottom" constant="42" id="YF4-Kd-dWM"/>
-                            <constraint firstItem="d3X-J8-2ts" firstAttribute="bottom" secondItem="DLc-dx-Owr" secondAttribute="bottom" constant="131" id="aZz-fP-nbv"/>
-                            <constraint firstItem="KwM-0r-PnJ" firstAttribute="bottom" secondItem="nvO-nv-hGA" secondAttribute="bottom" id="bIc-8Q-kRG"/>
-                            <constraint firstItem="rSw-B4-2Ia" firstAttribute="trailing" secondItem="nvO-nv-hGA" secondAttribute="trailing" id="bfo-6G-OAf"/>
-                            <constraint firstItem="rSw-B4-2Ia" firstAttribute="leading" secondItem="nvO-nv-hGA" secondAttribute="leading" id="c5Y-rF-kjD"/>
-                            <constraint firstItem="Khj-rT-LRZ" firstAttribute="centerX" secondItem="vx6-fL-grw" secondAttribute="centerX" id="c7e-L6-RKP"/>
-                            <constraint firstItem="KwM-0r-PnJ" firstAttribute="top" secondItem="GHi-74-nFd" secondAttribute="bottom" constant="58" id="giH-hx-OHx"/>
-                            <constraint firstItem="Ggx-Jy-gLY" firstAttribute="top" secondItem="KwM-0r-PnJ" secondAttribute="bottom" constant="50" id="iAM-6i-0A4"/>
-                            <constraint firstItem="KwM-0r-PnJ" firstAttribute="leading" secondItem="Ggx-Jy-gLY" secondAttribute="leading" id="iBv-jr-6vL"/>
-                            <constraint firstItem="3Ue-6m-H3v" firstAttribute="centerY" secondItem="LLa-uG-eDZ" secondAttribute="centerY" id="kdu-4G-yO7"/>
-                            <constraint firstItem="28X-QY-aPK" firstAttribute="leading" secondItem="GHi-74-nFd" secondAttribute="leading" id="kmb-3h-Ruw"/>
-                            <constraint firstItem="DLc-dx-Owr" firstAttribute="centerX" secondItem="Ec8-WX-qVJ" secondAttribute="centerX" id="mgC-24-j6h"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="centerY" secondItem="Khj-rT-LRZ" secondAttribute="centerY" id="nKp-YL-skl"/>
-                            <constraint firstItem="3Ue-6m-H3v" firstAttribute="centerX" secondItem="z9u-DD-L90" secondAttribute="centerX" id="oeS-6e-BJY"/>
-                            <constraint firstItem="vx6-fL-grw" firstAttribute="leading" secondItem="DLc-dx-Owr" secondAttribute="leading" id="p5i-ai-qqS"/>
-                            <constraint firstItem="d3X-J8-2ts" firstAttribute="trailing" secondItem="vx6-fL-grw" secondAttribute="trailing" constant="8" id="qdm-dJ-Q3X"/>
-                            <constraint firstItem="Khj-rT-LRZ" firstAttribute="top" secondItem="d3X-J8-2ts" secondAttribute="top" constant="106" id="rht-oV-mfV"/>
-                            <constraint firstItem="3Ue-6m-H3v" firstAttribute="top" secondItem="LLa-uG-eDZ" secondAttribute="topMargin" constant="-44" id="s3C-lr-BOm"/>
-                            <constraint firstItem="GHi-74-nFd" firstAttribute="leading" secondItem="KwM-0r-PnJ" secondAttribute="leading" id="xUB-Gu-H7u"/>
-                            <constraint firstItem="3Ue-6m-H3v" firstAttribute="centerX" secondItem="LLa-uG-eDZ" secondAttribute="centerX" id="zIt-dD-h2N"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mittag" image="sun.min.fill" catalog="system" selectedImage="sun.max.fill" id="4oi-8G-oPm"/>
                 </viewController>
@@ -187,158 +138,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="YHq-m9-QlT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="YHq-m9-QlT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (3)" translatesAutoresizingMaskIntoConstraints="NO" id="G02-iT-eQN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (3)" translatesAutoresizingMaskIntoConstraints="NO" id="G02-iT-eQN">
                                 <rect key="frame" x="20" y="464" width="194" height="121"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="121" id="r3n-xj-P9r"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (4)" translatesAutoresizingMaskIntoConstraints="NO" id="GaG-mF-oDt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (4)" translatesAutoresizingMaskIntoConstraints="NO" id="GaG-mF-oDt">
                                 <rect key="frame" x="20" y="641" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (2)" translatesAutoresizingMaskIntoConstraints="NO" id="ur2-j9-loS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (2)" translatesAutoresizingMaskIntoConstraints="NO" id="ur2-j9-loS">
                                 <rect key="frame" x="20" y="293" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MicrosoftTeams-image (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-d9-FOF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-d9-FOF">
                                 <rect key="frame" x="7" y="114" width="217" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="French Toast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNa-Nx-uBu">
-                                <rect key="frame" x="244" y="151" width="99" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="jkO-sq-zn3"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="French Toast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNa-Nx-uBu">
+                                <rect key="frame" x="244" y="151" width="106" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sucuk mit Ei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9A-hc-1JW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sucuk mit Ei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9A-hc-1JW">
                                 <rect key="frame" x="246" y="343" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Omlett" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiU-d2-XIQ">
-                                <rect key="frame" x="267" y="505" width="52" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="52" id="L6G-fL-c0H"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Klassisches Omlett" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiU-d2-XIQ">
+                                <rect key="frame" x="220" y="505" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rührei mit Lachs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuJ-1D-ZCc">
-                                <rect key="frame" x="230" y="684" width="127" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rührei mit Lachs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuJ-1D-ZCc">
+                                <rect key="frame" x="211" y="691" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frühstück" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKT-Hj-ZTV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frühstück" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKT-Hj-ZTV">
                                 <rect key="frame" x="159" y="44" width="96" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZq-iC-Wvh">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZq-iC-Wvh">
                                 <rect key="frame" x="237" y="206" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="DH9-op-Kjg"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Zum Gericht"/>
                                 <connections>
                                     <segue destination="Qgo-Ur-zVh" kind="presentation" modalPresentationStyle="fullScreen" id="UgE-v4-Sux"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKt-il-bZR">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKt-il-bZR">
                                 <rect key="frame" x="237" y="372" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="BzK-Oq-gNF"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Zum Gericht"/>
                                 <connections>
                                     <segue destination="Fw6-Cl-fse" kind="presentation" modalPresentationStyle="fullScreen" id="3u6-Lh-1GQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur6-dy-WsL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur6-dy-WsL">
                                 <rect key="frame" x="237" y="534" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Bsy-e4-4Mk"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Zum Gericht"/>
                                 <connections>
                                     <segue destination="0Wc-Au-tpk" kind="presentation" modalPresentationStyle="fullScreen" id="48j-1A-BGh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-2y-gbX">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-2y-gbX">
                                 <rect key="frame" x="237" y="713" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="OpX-cd-717"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Zum Gericht"/>
                                 <connections>
                                     <segue destination="S6D-OP-YRZ" kind="presentation" modalPresentationStyle="fullScreen" id="Qwg-Gs-LdZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hm7-Ss-aFF">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hm7-Ss-aFF">
                                 <rect key="frame" x="20" y="44" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="house" catalog="system"/>
                                 <connections>
                                     <segue destination="pVt-f3-T6B" kind="presentation" modalPresentationStyle="fullScreen" id="EuX-pS-FiZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNb-Sc-WKB">
+                                <rect key="frame" x="20" y="770" width="184" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mehr Rezepte auf Rewe.de"/>
+                                <connections>
+                                    <segue destination="IOp-Gf-gSQ" kind="presentation" modalPresentationStyle="fullScreen" id="ETP-o4-m7J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fos-8e-bLz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="G02-iT-eQN" firstAttribute="top" secondItem="ur2-j9-loS" secondAttribute="bottom" constant="50" id="1p5-dK-aIU"/>
-                            <constraint firstItem="ur2-j9-loS" firstAttribute="leading" secondItem="G02-iT-eQN" secondAttribute="leading" id="2DO-wR-2Ym"/>
-                            <constraint firstItem="8yg-d9-FOF" firstAttribute="leading" secondItem="Fos-8e-bLz" secondAttribute="leading" constant="7" id="2fN-QW-2D7"/>
-                            <constraint firstItem="iZq-iC-Wvh" firstAttribute="leading" secondItem="8yg-d9-FOF" secondAttribute="trailing" constant="13" id="2zh-NU-irt"/>
-                            <constraint firstItem="UuJ-1D-ZCc" firstAttribute="centerX" secondItem="uvm-2y-gbX" secondAttribute="centerX" id="6bp-Kr-Fwo"/>
-                            <constraint firstItem="ur6-dy-WsL" firstAttribute="trailing" secondItem="uvm-2y-gbX" secondAttribute="trailing" id="8hi-pp-fIS"/>
-                            <constraint firstItem="Fos-8e-bLz" firstAttribute="trailing" secondItem="UuJ-1D-ZCc" secondAttribute="trailing" constant="57" id="BQL-oe-O5h"/>
-                            <constraint firstItem="ur6-dy-WsL" firstAttribute="top" secondItem="IiU-d2-XIQ" secondAttribute="bottom" constant="8" id="BRX-qM-ePX"/>
-                            <constraint firstItem="ur6-dy-WsL" firstAttribute="leading" secondItem="uvm-2y-gbX" secondAttribute="leading" id="D07-L3-7lE"/>
-                            <constraint firstItem="8yg-d9-FOF" firstAttribute="top" secondItem="Hm7-Ss-aFF" secondAttribute="bottom" constant="48" id="DhN-WA-1Lz"/>
-                            <constraint firstItem="b9A-hc-1JW" firstAttribute="centerX" secondItem="oKt-il-bZR" secondAttribute="centerX" id="H5j-6f-dc1"/>
-                            <constraint firstItem="YHq-m9-QlT" firstAttribute="leading" secondItem="Fos-8e-bLz" secondAttribute="leading" id="IxP-fP-THO"/>
-                            <constraint firstItem="gNa-Nx-uBu" firstAttribute="top" secondItem="hKT-Hj-ZTV" secondAttribute="bottom" constant="80" id="Jst-cG-Exs"/>
-                            <constraint firstItem="G02-iT-eQN" firstAttribute="leading" secondItem="GaG-mF-oDt" secondAttribute="leading" id="NsJ-0d-8Hq"/>
-                            <constraint firstItem="Hm7-Ss-aFF" firstAttribute="leading" secondItem="gRm-Id-cNa" secondAttribute="leadingMargin" id="O2H-sL-RMD"/>
-                            <constraint firstItem="YHq-m9-QlT" firstAttribute="centerX" secondItem="gRm-Id-cNa" secondAttribute="centerX" id="OAI-Uq-DGu"/>
-                            <constraint firstItem="GaG-mF-oDt" firstAttribute="top" secondItem="G02-iT-eQN" secondAttribute="bottom" constant="56" id="OdG-89-Crx"/>
-                            <constraint firstItem="gNa-Nx-uBu" firstAttribute="leading" secondItem="8yg-d9-FOF" secondAttribute="trailing" constant="20" id="Pbl-Iu-F4E"/>
-                            <constraint firstItem="gNa-Nx-uBu" firstAttribute="centerX" secondItem="iZq-iC-Wvh" secondAttribute="centerX" id="SIm-P6-JPj"/>
-                            <constraint firstItem="uvm-2y-gbX" firstAttribute="top" secondItem="UuJ-1D-ZCc" secondAttribute="bottom" constant="8" id="TG4-ah-aZ7"/>
-                            <constraint firstItem="oKt-il-bZR" firstAttribute="top" secondItem="b9A-hc-1JW" secondAttribute="bottom" constant="8" id="TRf-bU-Wcf"/>
-                            <constraint firstItem="YHq-m9-QlT" firstAttribute="top" secondItem="gRm-Id-cNa" secondAttribute="topMargin" constant="-44" id="Vqj-ne-ljM"/>
-                            <constraint firstItem="oKt-il-bZR" firstAttribute="leading" secondItem="ur6-dy-WsL" secondAttribute="leading" id="VuJ-zn-wbg"/>
-                            <constraint firstItem="YHq-m9-QlT" firstAttribute="centerY" secondItem="gRm-Id-cNa" secondAttribute="centerY" id="XhZ-Km-7Cg"/>
-                            <constraint firstItem="ur2-j9-loS" firstAttribute="top" secondItem="8yg-d9-FOF" secondAttribute="bottom" constant="42" id="YP7-tT-Hn7"/>
-                            <constraint firstItem="8yg-d9-FOF" firstAttribute="bottom" secondItem="iZq-iC-Wvh" secondAttribute="bottom" id="aoF-mh-QGh"/>
-                            <constraint firstItem="Hm7-Ss-aFF" firstAttribute="leading" secondItem="ur2-j9-loS" secondAttribute="leading" id="bup-OI-3Ti"/>
-                            <constraint firstItem="Fos-8e-bLz" firstAttribute="bottom" secondItem="uvm-2y-gbX" secondAttribute="bottom" constant="55" id="d1s-jH-Lke"/>
-                            <constraint firstItem="oKt-il-bZR" firstAttribute="trailing" secondItem="ur6-dy-WsL" secondAttribute="trailing" id="eWE-TA-eAb"/>
-                            <constraint firstItem="ur2-j9-loS" firstAttribute="trailing" secondItem="G02-iT-eQN" secondAttribute="trailing" id="eu5-St-7BN"/>
-                            <constraint firstItem="Hm7-Ss-aFF" firstAttribute="top" secondItem="hKT-Hj-ZTV" secondAttribute="top" id="jSA-yG-s1J"/>
-                            <constraint firstItem="Hm7-Ss-aFF" firstAttribute="top" secondItem="Fos-8e-bLz" secondAttribute="top" id="kRT-j9-FuK"/>
-                            <constraint firstItem="IiU-d2-XIQ" firstAttribute="top" secondItem="oKt-il-bZR" secondAttribute="bottom" constant="88" id="kat-WY-ARV"/>
-                            <constraint firstItem="IiU-d2-XIQ" firstAttribute="leading" secondItem="G02-iT-eQN" secondAttribute="trailing" constant="53" id="nVh-aA-eWv"/>
-                            <constraint firstItem="oKt-il-bZR" firstAttribute="leading" secondItem="ur2-j9-loS" secondAttribute="trailing" constant="23" id="qqi-2l-ECI"/>
-                            <constraint firstItem="iZq-iC-Wvh" firstAttribute="top" secondItem="gNa-Nx-uBu" secondAttribute="bottom" constant="8" id="sF5-Vi-XRy"/>
-                            <constraint firstItem="YHq-m9-QlT" firstAttribute="centerX" secondItem="hKT-Hj-ZTV" secondAttribute="centerX" id="sYV-cE-rpX"/>
-                            <constraint firstItem="UuJ-1D-ZCc" firstAttribute="leading" secondItem="GaG-mF-oDt" secondAttribute="trailing" constant="16" id="twR-pN-TmG"/>
-                            <constraint firstItem="iZq-iC-Wvh" firstAttribute="leading" secondItem="oKt-il-bZR" secondAttribute="leading" id="uR8-R3-jNZ"/>
-                            <constraint firstItem="G02-iT-eQN" firstAttribute="trailing" secondItem="GaG-mF-oDt" secondAttribute="trailing" id="vKB-vv-o6K"/>
-                            <constraint firstItem="8yg-d9-FOF" firstAttribute="top" secondItem="hKT-Hj-ZTV" secondAttribute="bottom" constant="43" id="vLx-cs-M6M"/>
-                            <constraint firstItem="IiU-d2-XIQ" firstAttribute="centerX" secondItem="ur6-dy-WsL" secondAttribute="centerX" id="wC2-2G-LOu"/>
-                            <constraint firstItem="ur2-j9-loS" firstAttribute="centerY" secondItem="b9A-hc-1JW" secondAttribute="centerY" id="ymM-kY-Auz"/>
-                            <constraint firstItem="iZq-iC-Wvh" firstAttribute="trailing" secondItem="oKt-il-bZR" secondAttribute="trailing" id="z7k-5b-Uw3"/>
-                            <constraint firstItem="Fos-8e-bLz" firstAttribute="bottom" secondItem="GaG-mF-oDt" secondAttribute="bottom" constant="51" id="zK4-Ph-OZQ"/>
-                            <constraint firstItem="b9A-hc-1JW" firstAttribute="top" secondItem="iZq-iC-Wvh" secondAttribute="bottom" constant="92" id="zsT-LO-SnY"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Frühstück" image="sunrise.fill" catalog="system" id="GsL-gw-KEG">
                         <imageReference key="selectedImage" image="sunrise" catalog="system" symbolScale="default"/>
@@ -347,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKI-3t-1dt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="1604"/>
+            <point key="canvasLocation" x="411.59420289855075" y="1603.7946428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tuy-cp-QhW">
@@ -499,8 +404,8 @@ In eine Pfanne die Eier geben und mit der Milch vermischen. Die Toastscheiben to
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Klick auf den Kochlöffel um loszulegen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgC-3N-53P">
-                                <rect key="frame" x="59" y="816" width="302" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drücke auf den Kochlöffel um loszulegen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgC-3N-53P">
+                                <rect key="frame" x="59" y="816" width="312" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -552,153 +457,112 @@ In eine Pfanne die Eier geben und mit der Milch vermischen. Die Toastscheiben to
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="NSv-oQ-zQF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="NSv-oQ-zQF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAa-Dd-FrP">
-                                <rect key="frame" x="246" y="191" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="HXH-E2-Acu"/>
-                                    <constraint firstAttribute="width" constant="113" id="agE-dd-SDP"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="fsK-gW-UES" kind="presentation" modalPresentationStyle="fullScreen" id="qIu-6t-dzw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkn-b6-N12">
-                                <rect key="frame" x="246" y="370" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="MEm-Ov-nz2"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="BG4-70-cbT" kind="presentation" modalPresentationStyle="fullScreen" id="c0F-zR-Hdt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWJ-Kt-ka9">
-                                <rect key="frame" x="246" y="541" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="VuZ-dQ-DG7"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="6CJ-kJ-51D" kind="presentation" modalPresentationStyle="fullScreen" id="dMS-xv-tyv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-Fh-ZK5">
-                                <rect key="frame" x="246" y="718" width="113" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="mRd-W9-vfx"/>
-                                </constraints>
-                                <state key="normal" title="Zum Gericht"/>
-                                <connections>
-                                    <segue destination="5jd-AL-1nT" kind="presentation" modalPresentationStyle="fullScreen" id="Bzj-cj-sIY"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrosoftTeams-image (10)" translatesAutoresizingMaskIntoConstraints="NO" id="sQI-XW-DgS">
-                                <rect key="frame" x="20" y="465" width="194" height="121"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrosoftTeams-image (11)" translatesAutoresizingMaskIntoConstraints="NO" id="IJy-6E-sFa">
-                                <rect key="frame" x="20" y="642" width="194" height="121"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrosoftTeams-image (9)" translatesAutoresizingMaskIntoConstraints="NO" id="ROk-DI-19P">
-                                <rect key="frame" x="20" y="294" width="194" height="121"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hähnchenbrust mit Glasnudeln" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTN-KX-aTV">
-                                <rect key="frame" x="246" y="115" width="159" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="94" id="osW-2B-rdd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rinderfiletsteak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlY-Sr-j7V">
-                                <rect key="frame" x="246" y="344" width="120" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thunfischsteak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcy-Cm-BhM">
-                                <rect key="frame" x="246" y="515" width="117" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lasagne Bolognese" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOM-OH-lfH">
-                                <rect key="frame" x="232" y="685" width="149" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abendessen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqT-nb-HL7">
-                                <rect key="frame" x="147" y="44" width="120" height="27"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrosoftTeams-image (8)" translatesAutoresizingMaskIntoConstraints="NO" id="Kad-vj-5gU">
-                                <rect key="frame" x="20" y="115" width="194" height="121"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk7-pv-P89">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk7-pv-P89">
                                 <rect key="frame" x="20" y="44" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="house" catalog="system"/>
                                 <connections>
                                     <segue destination="pVt-f3-T6B" kind="presentation" modalPresentationStyle="fullScreen" id="1EA-sV-Eaf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAa-Dd-FrP">
+                                <rect key="frame" x="246" y="191" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="fsK-gW-UES" kind="presentation" modalPresentationStyle="fullScreen" id="qIu-6t-dzw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkn-b6-N12">
+                                <rect key="frame" x="246" y="370" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="BG4-70-cbT" kind="presentation" modalPresentationStyle="fullScreen" id="c0F-zR-Hdt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWJ-Kt-ka9">
+                                <rect key="frame" x="246" y="541" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="6CJ-kJ-51D" kind="presentation" modalPresentationStyle="fullScreen" id="dMS-xv-tyv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-Fh-ZK5">
+                                <rect key="frame" x="246" y="718" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zum Gericht"/>
+                                <connections>
+                                    <segue destination="5jd-AL-1nT" kind="presentation" modalPresentationStyle="fullScreen" id="Bzj-cj-sIY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (10)" translatesAutoresizingMaskIntoConstraints="NO" id="sQI-XW-DgS">
+                                <rect key="frame" x="20" y="465" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (11)" translatesAutoresizingMaskIntoConstraints="NO" id="IJy-6E-sFa">
+                                <rect key="frame" x="20" y="642" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (9)" translatesAutoresizingMaskIntoConstraints="NO" id="ROk-DI-19P">
+                                <rect key="frame" x="20" y="294" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hähnchenbrust mit Glasnudeln" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTN-KX-aTV">
+                                <rect key="frame" x="246" y="115" width="159" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rinderfiletsteak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlY-Sr-j7V">
+                                <rect key="frame" x="246" y="344" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thunfischsteak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcy-Cm-BhM">
+                                <rect key="frame" x="246" y="515" width="117" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lasagne Bolognese" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOM-OH-lfH">
+                                <rect key="frame" x="232" y="685" width="149" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abendessen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqT-nb-HL7">
+                                <rect key="frame" x="147" y="44" width="120" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MicrosoftTeams-image (8)" translatesAutoresizingMaskIntoConstraints="NO" id="Kad-vj-5gU">
+                                <rect key="frame" x="20" y="115" width="194" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxL-nN-xrJ">
+                                <rect key="frame" x="20" y="771" width="184" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mehr Rezepte auf Rewe.de"/>
+                                <connections>
+                                    <segue destination="dmd-ec-mZE" kind="presentation" modalPresentationStyle="fullScreen" id="crL-rU-zRS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zDI-0n-uip"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="sQI-XW-DgS" firstAttribute="trailing" secondItem="IJy-6E-sFa" secondAttribute="trailing" id="0UC-Ft-ZFe"/>
-                            <constraint firstItem="GAa-Dd-FrP" firstAttribute="trailing" secondItem="Zkn-b6-N12" secondAttribute="trailing" id="2pR-0X-fhr"/>
-                            <constraint firstItem="ZlY-Sr-j7V" firstAttribute="leading" secondItem="Zkn-b6-N12" secondAttribute="leading" id="4DI-wd-d9b"/>
-                            <constraint firstItem="NSv-oQ-zQF" firstAttribute="top" secondItem="qKZ-uh-pVS" secondAttribute="topMargin" constant="-44" id="4yd-Ko-boR"/>
-                            <constraint firstItem="ROk-DI-19P" firstAttribute="bottom" secondItem="Zkn-b6-N12" secondAttribute="bottom" id="5s2-gT-z0W"/>
-                            <constraint firstItem="yk7-pv-P89" firstAttribute="leading" secondItem="qKZ-uh-pVS" secondAttribute="leadingMargin" id="6CR-NC-fwW"/>
-                            <constraint firstItem="sQI-XW-DgS" firstAttribute="leading" secondItem="IJy-6E-sFa" secondAttribute="leading" id="6ld-j1-eMd"/>
-                            <constraint firstItem="GAa-Dd-FrP" firstAttribute="leading" secondItem="ZlY-Sr-j7V" secondAttribute="leading" id="A0m-lN-jlh"/>
-                            <constraint firstItem="ROk-DI-19P" firstAttribute="top" secondItem="Kad-vj-5gU" secondAttribute="bottom" constant="58" id="Apf-vF-mf0"/>
-                            <constraint firstItem="sOM-OH-lfH" firstAttribute="leading" secondItem="IJy-6E-sFa" secondAttribute="trailing" constant="18" id="BLU-O3-PmE"/>
-                            <constraint firstItem="mTN-KX-aTV" firstAttribute="leading" secondItem="GAa-Dd-FrP" secondAttribute="leading" id="Dxf-5w-F9y"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="top" secondItem="mTN-KX-aTV" secondAttribute="top" id="ENN-HU-eAf"/>
-                            <constraint firstItem="mTN-KX-aTV" firstAttribute="leading" secondItem="Kad-vj-5gU" secondAttribute="trailing" constant="32" id="Ef2-O0-6At"/>
-                            <constraint firstItem="oJ3-Fh-ZK5" firstAttribute="top" secondItem="sOM-OH-lfH" secondAttribute="bottom" constant="12" id="HCL-cY-0a8"/>
-                            <constraint firstItem="NSv-oQ-zQF" firstAttribute="centerY" secondItem="qKZ-uh-pVS" secondAttribute="centerY" id="IVU-hg-7qa"/>
-                            <constraint firstItem="sOM-OH-lfH" firstAttribute="top" secondItem="gWJ-Kt-ka9" secondAttribute="bottom" constant="99" id="Ii8-H2-hoo"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="bottom" secondItem="GAa-Dd-FrP" secondAttribute="bottom" id="J7o-SM-NmE"/>
-                            <constraint firstItem="gWJ-Kt-ka9" firstAttribute="leading" secondItem="oJ3-Fh-ZK5" secondAttribute="leading" id="K1M-Tj-0wZ"/>
-                            <constraint firstItem="ROk-DI-19P" firstAttribute="centerY" secondItem="ZlY-Sr-j7V" secondAttribute="centerY" id="KG6-ky-tkM"/>
-                            <constraint firstItem="zDI-0n-uip" firstAttribute="trailing" secondItem="GAa-Dd-FrP" secondAttribute="trailing" constant="55" id="Kth-Yj-GoF"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="leading" secondItem="ROk-DI-19P" secondAttribute="leading" id="O1c-v9-sjH"/>
-                            <constraint firstItem="yk7-pv-P89" firstAttribute="top" secondItem="aqT-nb-HL7" secondAttribute="top" id="P0a-Et-CwK"/>
-                            <constraint firstItem="Zkn-b6-N12" firstAttribute="trailing" secondItem="gWJ-Kt-ka9" secondAttribute="trailing" id="Q7P-WB-RWs"/>
-                            <constraint firstItem="gWJ-Kt-ka9" firstAttribute="top" secondItem="Rcy-Cm-BhM" secondAttribute="bottom" constant="5" id="T05-Zd-59n"/>
-                            <constraint firstItem="gWJ-Kt-ka9" firstAttribute="trailing" secondItem="oJ3-Fh-ZK5" secondAttribute="trailing" id="TAI-Xs-xU6"/>
-                            <constraint firstItem="IJy-6E-sFa" firstAttribute="bottom" secondItem="oJ3-Fh-ZK5" secondAttribute="bottom" id="VBV-fQ-P0v"/>
-                            <constraint firstItem="NSv-oQ-zQF" firstAttribute="centerX" secondItem="qKZ-uh-pVS" secondAttribute="centerX" id="VnS-iA-uTj"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="top" secondItem="aqT-nb-HL7" secondAttribute="bottom" constant="44" id="Y14-be-bUo"/>
-                            <constraint firstItem="Zkn-b6-N12" firstAttribute="top" secondItem="ZlY-Sr-j7V" secondAttribute="bottom" constant="5" id="Yjo-Tx-hyR"/>
-                            <constraint firstItem="ROk-DI-19P" firstAttribute="trailing" secondItem="sQI-XW-DgS" secondAttribute="trailing" id="adL-d7-qIu"/>
-                            <constraint firstItem="ZlY-Sr-j7V" firstAttribute="centerX" secondItem="sOM-OH-lfH" secondAttribute="centerX" id="arM-cS-WgR"/>
-                            <constraint firstItem="zDI-0n-uip" firstAttribute="bottom" secondItem="IJy-6E-sFa" secondAttribute="bottom" constant="99" id="c3n-o7-UTm"/>
-                            <constraint firstItem="IJy-6E-sFa" firstAttribute="top" secondItem="sQI-XW-DgS" secondAttribute="bottom" constant="56" id="cKk-e4-68C"/>
-                            <constraint firstItem="NSv-oQ-zQF" firstAttribute="centerX" secondItem="aqT-nb-HL7" secondAttribute="centerX" id="cwC-Oe-Rb1"/>
-                            <constraint firstItem="ROk-DI-19P" firstAttribute="leading" secondItem="sQI-XW-DgS" secondAttribute="leading" id="duX-LQ-kJE"/>
-                            <constraint firstItem="NSv-oQ-zQF" firstAttribute="leading" secondItem="zDI-0n-uip" secondAttribute="leading" id="ivW-ON-Ak2"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="top" secondItem="yk7-pv-P89" secondAttribute="bottom" constant="49" id="jiM-4d-KjN"/>
-                            <constraint firstItem="Zkn-b6-N12" firstAttribute="leading" secondItem="Rcy-Cm-BhM" secondAttribute="leading" id="n3e-fA-KMB"/>
-                            <constraint firstItem="Kad-vj-5gU" firstAttribute="trailing" secondItem="ROk-DI-19P" secondAttribute="trailing" id="p83-5f-iiT"/>
-                            <constraint firstItem="sQI-XW-DgS" firstAttribute="centerY" secondItem="Rcy-Cm-BhM" secondAttribute="centerY" id="pXO-go-YW1"/>
-                            <constraint firstItem="yk7-pv-P89" firstAttribute="leading" secondItem="Kad-vj-5gU" secondAttribute="leading" id="qgz-QY-6ab"/>
-                            <constraint firstItem="zDI-0n-uip" firstAttribute="trailing" secondItem="mTN-KX-aTV" secondAttribute="trailing" constant="9" id="uEe-wZ-H7v"/>
-                            <constraint firstItem="Rcy-Cm-BhM" firstAttribute="leading" secondItem="gWJ-Kt-ka9" secondAttribute="leading" id="vxz-Np-1eD"/>
-                            <constraint firstItem="sQI-XW-DgS" firstAttribute="top" secondItem="ROk-DI-19P" secondAttribute="bottom" constant="50" id="wjU-jk-iP9"/>
-                            <constraint firstItem="sQI-XW-DgS" firstAttribute="bottom" secondItem="gWJ-Kt-ka9" secondAttribute="bottom" id="yBk-T6-wmA"/>
-                            <constraint firstItem="yk7-pv-P89" firstAttribute="top" secondItem="zDI-0n-uip" secondAttribute="top" id="yNO-XH-zEM"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Abendessen" image="sunset.fill" catalog="system" id="yMR-Ep-H2z"/>
                 </viewController>
@@ -1121,6 +985,88 @@ Zum Schluss das Rührei mit den Lachsscheiben auf einem Teller oder einer Scheib
             </objects>
             <point key="canvasLocation" x="3529" y="1604"/>
         </scene>
+        <!--Abend Web View Controller-->
+        <scene sceneID="eQk-VP-SDy">
+            <objects>
+                <viewController id="dmd-ec-mZE" customClass="AbendWebViewController" customModule="GoekdizRezepte" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pBW-WM-jzW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="TDr-pB-vHc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AO7-Vo-3fV">
+                                <rect key="frame" x="19" y="44" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zurück"/>
+                                <connections>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="GsE-Mt-Pbm"/>
+                                </connections>
+                            </button>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hwk-Xa-FZA">
+                                <rect key="frame" x="20" y="100" width="374" height="762"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DhF-Sf-cda"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="abendWebView" destination="hwk-Xa-FZA" id="iyF-7s-geN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxe-IG-atl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4382.608695652174" y="646.875"/>
+        </scene>
+        <!--Frueh Web View Controller-->
+        <scene sceneID="pWw-4H-GWb">
+            <objects>
+                <viewController id="IOp-Gf-gSQ" customClass="FruehWebViewController" customModule="GoekdizRezepte" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HN2-Rd-Ark">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="6IV-DJ-WdB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byl-PA-CwI">
+                                <rect key="frame" x="20" y="89" width="374" height="773"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1V-83-SO0">
+                                <rect key="frame" x="19" y="44" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zurück"/>
+                                <connections>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="wge-hX-5ct"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZNY-Kx-uFP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="fruehWebView" destination="byl-PA-CwI" id="Obn-XJ-o4B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eki-n6-yZu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4343.4782608695659" y="1603.7946428571429"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="saq-Ng-jy2">
             <objects>
@@ -1520,7 +1466,7 @@ In einem Topf oder einer Pfanne das Olivenöl erhitzen und die Nudeln kurz darin
                                 <rect key="frame" x="20" y="44" width="49" height="30"/>
                                 <state key="normal" title="Zurück"/>
                                 <connections>
-                                    <segue destination="Yry-hh-7nt" kind="presentation" modalPresentationStyle="fullScreen" id="ukb-hX-ioa"/>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="qlW-NS-7m5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1875,13 +1821,62 @@ Nun die Pilze, die Gurken und die Gewürze zu den Zwiebeln in die Pfanne geben u
             </objects>
             <point key="canvasLocation" x="3528.985507246377" y="-423.21428571428572"/>
         </scene>
+        <!--Web View Controller-->
+        <scene sceneID="QAm-iA-8WZ">
+            <objects>
+                <viewController id="Kkh-5G-tjV" customClass="WebViewController" customModule="GoekdizRezepte" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lO9-si-3Ue">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apricot" translatesAutoresizingMaskIntoConstraints="NO" id="f4c-eP-cfd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eoy-GK-VRs">
+                                <rect key="frame" x="20" y="44" width="49" height="30"/>
+                                <state key="normal" title="Zurück"/>
+                                <connections>
+                                    <segue destination="i79-M5-x6T" kind="presentation" modalPresentationStyle="fullScreen" id="oky-qp-aIn"/>
+                                </connections>
+                            </button>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TkS-Dj-W75">
+                                <rect key="frame" x="20" y="89" width="374" height="773"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="l68-yW-ssn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f4c-eP-cfd" firstAttribute="top" secondItem="lO9-si-3Ue" secondAttribute="top" id="ABj-f6-YT7"/>
+                            <constraint firstItem="f4c-eP-cfd" firstAttribute="leading" secondItem="lO9-si-3Ue" secondAttribute="leading" id="CcG-ZA-Zyz"/>
+                            <constraint firstItem="Eoy-GK-VRs" firstAttribute="leading" secondItem="lO9-si-3Ue" secondAttribute="leadingMargin" id="IBk-W0-U6Y"/>
+                            <constraint firstAttribute="bottom" secondItem="f4c-eP-cfd" secondAttribute="bottom" id="OgS-Bk-T5A"/>
+                            <constraint firstItem="Eoy-GK-VRs" firstAttribute="top" secondItem="l68-yW-ssn" secondAttribute="top" id="SvL-MC-pbF"/>
+                            <constraint firstItem="Eoy-GK-VRs" firstAttribute="leading" secondItem="l68-yW-ssn" secondAttribute="leading" constant="20" id="WXb-hR-mv1"/>
+                            <constraint firstAttribute="trailing" secondItem="f4c-eP-cfd" secondAttribute="trailing" id="unA-dB-8l9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mittagWebView" destination="TkS-Dj-W75" id="EZ4-Qe-Ysd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ypK-gc-lgV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4382.608695652174" y="-423.21428571428572"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Qwg-Gs-LdZ"/>
-        <segue reference="wfS-Nm-xGG"/>
+        <segue reference="0wJ-MT-GCc"/>
         <segue reference="EuX-pS-FiZ"/>
+        <segue reference="wge-hX-5ct"/>
         <segue reference="c3C-PR-kP4"/>
-        <segue reference="5be-vH-htl"/>
+        <segue reference="xzS-3e-QVd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="MicrosoftTeams-image (1)-1" width="605" height="454"/>

@@ -22,6 +22,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var InspiLabel: UILabel!
     
     
+    
+    
+    
   //  @IBAction func LoeffelButton(_ sender: UIButton) {
     //    performSegue(withIdentifier: "SegOne", sender: self)
     //}
@@ -33,6 +36,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var gemuese: UIImageView!
 
     @IBOutlet weak var tabbar: UIImageView!
+    
     
     
     //table
